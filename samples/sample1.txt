@@ -1,0 +1,4 @@
+Ths is a smple text file with sevral speling erors.
+The quik brown fox jumps ovr the layz dog.
+Programing is a wonderfull skill to lern.
+We need to corect these misstakes automaticaly.

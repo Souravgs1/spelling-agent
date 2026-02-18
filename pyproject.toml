@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "spelling-agent"
+version = "1.0.0"
+description = "An autonomous agent that detects and corrects spelling errors in .txt files"
+requires-python = ">=3.10"
+dependencies = [
+    "pyspellchecker>=0.8.0",
+]
+
+[project.scripts]
+spelling-agent = "spelling_agent.agent:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
